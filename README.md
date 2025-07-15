@@ -29,7 +29,7 @@ A comprehensive Netflix movie and TV show recommendation system using machine le
    python data_downloader.py
    ```
 
-## 🎯 Usage
+## Usage
 
 
 Launch the Streamlit web app:
@@ -71,7 +71,7 @@ results = bot.search_titles("Leonardo DiCaprio", 5)
 print(results)
 ```
 
-## 📊 Dataset
+## Dataset
 
 This project uses the "Netflix Movies and TV Shows" dataset from Kaggle. The dataset contains:
 
@@ -80,7 +80,7 @@ This project uses the "Netflix Movies and TV Shows" dataset from Kaggle. The dat
 - **Detailed data** including cast, director, genres, ratings, and descriptions
 - **Release years** spanning several decades
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Recommendation Engine
 
@@ -108,7 +108,7 @@ The system uses multiple recommendation strategies:
 - **Plotly**: Interactive visualizations
 - **KaggleHub**: Dataset downloading
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 Potential improvements:
 - User rating system and collaborative filtering
