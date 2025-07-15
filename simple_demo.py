@@ -287,9 +287,7 @@ def demo():
     for i, result in enumerate(desc_results, 1):
         print(f"{i}. {result['title']} ({result['type']}, {result['year']}) - Matches: {result['match_score']}")
     
-    print(f"\n✅ Demo completed! For the full experience, install the required packages and run:")
-    print("   - streamlit run streamlit_app.py (web interface)")
-    print("   - python cli_app.py (command line)")
-
+    print("Demo completed! For the full experience, install the required packages and run:")
+   
 if __name__ == "__main__":
     demo()
